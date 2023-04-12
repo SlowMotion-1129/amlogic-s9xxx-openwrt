@@ -42,7 +42,7 @@ on:
           - s922x-ct2000
           - s905x3
           - s905x3-b
-          - s905x2
+          - s905x2_s905x
           - s912
           - s912-m8s-pro
           - s905d
@@ -175,7 +175,7 @@ jobs:
           tag: OpenWrt_imagebuilder_${{ env.RELEASES_TAG }}_${{ env.PACKAGED_OUTPUTDATE }}
           artifacts: ${{ env.PACKAGED_OUTPUTPATH }}/*
           allowUpdates: true
-          token: ${{ secrets.GH_TOKEN }}
+          gh_token: ${{ secrets.GH_TOKEN }}
           body: |
             This is OpenWrt firmware for Amlogic and Rockchip
             * Firmware information
