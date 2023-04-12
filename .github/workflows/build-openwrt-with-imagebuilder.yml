@@ -170,8 +170,8 @@ jobs:
           auto_kernel: ${{ inputs.auto_kernel }}
           kernel_repo: ${{ inputs.kernel_repo }}
           kernel_usage: ${{ inputs.kernel_usage }}
-          openwrt_size: ${{ inputs.openwrt_size }}
           gh_token: ${{ secrets.GH_TOKEN }}
+          openwrt_size: ${{ inputs.openwrt_size }}
 
       - name: Upload OpenWrt Firmware to Release
         uses: ncipollo/release-action@main
