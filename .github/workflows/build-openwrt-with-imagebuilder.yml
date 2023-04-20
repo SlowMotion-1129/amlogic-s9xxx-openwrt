@@ -84,7 +84,7 @@ on:
           - 5.10.1_5.15.1
           - 5.15.1_6.1.1
           - 5.4.1
-          - 5.10.1
+          - 5.9.16
           - 5.15.1
           - 6.1.1
       auto_kernel:
@@ -99,6 +99,7 @@ on:
         type: choice
         options:
           - ophub/kernel
+          - https://github.com/nabakdev/sibondt-kernel/tree/main/pub/stable
       kernel_usage:
         description: "Set the tags of the stable kernel."
         required: false
