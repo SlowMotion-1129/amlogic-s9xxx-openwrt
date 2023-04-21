@@ -198,6 +198,19 @@ rebuild_firmware() {
         luci-proto-3g luci-proto-bonding luci-proto-ipip luci-proto-ipv6 luci-proto-ncm  \
         luci-proto-openconnect luci-proto-ppp luci-proto-qmi luci-proto-relay  \
         \
+        ath9k-htc-firmware btrfs-progs kmod-ath kmod-ath9k kmod-ath9k-common  \
+        kmod-ath9k-htc kmod-cfg80211 kmod-crypto-acompress kmod-crypto-crc32c kmod-crypto-hash  \
+        kmod-fs-btrfs kmod-mac80211 wireless-tools  \
+        \
+        kmod-usb-core kmod-usb-net kmod-usb-net-cdc-ether kmod-usb-net-cdc-mbim ntfs-3g  \
+        kmod-usb-net-cdc-ncm kmod-usb-net-huawei-cdc-ncm kmod-usb-net-qmi-wwan kmod-usb-net-rndis  \
+        kmod-usb-net-sierrawireless kmod-usb-ohci kmod-usb-serial kmod-usb-serial-option  \
+        kmod-usb-serial-qualcomm kmod-usb-serial-sierrawireless kmod-usb-serial-wwan  \
+        kmod-usb-uhci kmod-usb-wdm kmod-usb2 usb-modeswitch parted tune2fs resize2fs  \
+        \
+        coreutils-nohup bash curl ca-certificates ipset ip-full libcap libcap-bin  \
+        ruby ruby-yaml kmod-tun kmod-inet-diag unzip kmod-nft-tproxy luci-compat luci luci-base  \
+        \
         luci-app-amlogic luci-i18n-amlogic-zh-cn \
         \
         ${config_list} \
